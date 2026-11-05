@@ -1,4 +1,4 @@
-const CACHE = 'academy-offline-v4';
+const CACHE = 'academy-offline-v5';
 const FILES = ['./', './index.html', './styles.css', './content.js', './course.js', './app.js', './manifest.webmanifest', './assets/app-icon.svg', './assets/spider-hero.jpeg', './assets/batman.jpeg', './assets/captain-america.jpeg', './assets/iron-man.jpeg', './assets/hulk.jpeg', './assets/thor.jpeg', './assets/nyc-night.png'];
 self.addEventListener('install', event => {
  event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)).then(() => self.skipWaiting()));
