@@ -1,0 +1,13 @@
+{
+  "name": "repetitor-dlya-syna",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Учебные миссии и ежедневные дела для второго класса",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node tests/progress.test.cjs && node tests/progression.test.cjs && node tests/year-course.test.cjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
